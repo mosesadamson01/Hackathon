@@ -1,0 +1,57 @@
+body { 
+  font-family: Arial, sans-serif;
+  background: url(dogs.jpg) no-repeat center center fixed;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(21, 20, 20, 0.664);
+}
+.body_wrap{
+    height: 100vh;
+    background-color: rgba(21, 20, 20, 0.664);
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  color: white;
+ background-color: rgba(21, 20, 20, 0);
+}
+.container {
+  text-align: center;
+  max-width: 90%;
+  width: 500px;
+}
+
+.button {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #f1c40f;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e67e22;
+  color: white;
+}
+
+.image-container {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  max-height: 45vh;
+  object-fit: contain;
+  border-radius: 10px;
+  
+}
